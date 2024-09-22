@@ -1,0 +1,60 @@
+/* || RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input,
+button {
+  font: inherit;
+}
+
+/* || GENERAL STYLES */
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.25rem;
+}
+
+body {
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+  background-color: midnightblue;
+  color: whitesmoke;
+}
+
+/* || HEADER */
+.header__h1 {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+/* || MAIN */
+.main {
+  margin-top: 0.5rem;
+}
+
+.main__label {
+  position: absolute;
+  left: -10000px;
+}
+
+.main__form {
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+  column-gap: 0.5rem;
+}
+
+.main__input {
+  padding: 0.25rem;
+  border: none;
+  background-color: whitesmoke;
+}
+
+.main__button {
+  border: none;
+  font-weight: bold;
+  background-color: whitesmoke;
+  color: midnightblue;
+}
